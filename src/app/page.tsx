@@ -37,12 +37,12 @@ export default function Home(): ReactElement {
           Implements semantic HTML and accessibility attributes
         */}
         <header
-          className="text-center mb-12 max-w-3xl px-4 relative "
+          className="text-center mb-12 max-w-3xl px-4 relative"
           role="banner"
         >
           {/* Ambient glow effects */}
           <div className="absolute -top-20 left-1/2 transform -z-10">
-            <div className="h-40 w-[60rem] bg-gradient-to-r from-violet-600/30 via-fuchsia-500/30 to-blue-600/30 blur-3xl animate-float" />
+            <div className="h-40 w-[200px] sm:w-[200px] md:w-[400px] lg:w-[500px] bg-gradient-to-r from-violet-600/30 via-fuchsia-500/30 to-blue-600/30 blur-3xl animate-float" />
           </div>
 
           <h1
