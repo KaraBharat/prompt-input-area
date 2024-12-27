@@ -21,11 +21,10 @@ import PromptAreaForm from "@/features/prompt-area-form";
  */
 export default function Home(): ReactElement {
   return (
-    <main
+    <div
       className="flex items-center justify-center mt-10 w-full"
       role="main"
       aria-label="Prompt Area Main Content"
-      tabIndex={-1}
     >
       <div
         className="flex flex-col items-center justify-center w-full p-4 md:p-8 gap-4 md:gap-10"
@@ -110,6 +109,6 @@ export default function Home(): ReactElement {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
