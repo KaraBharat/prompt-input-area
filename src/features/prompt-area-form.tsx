@@ -40,18 +40,18 @@ function PromptAreaForm(): React.ReactElement {
 
   return (
     <div
-      className="relative mx-auto w-full max-w-4xl"
+      className="relative mx-auto w-full max-w-4xl rounded-3xl overflow-hidden"
       role="region"
       aria-label="AI Chat Input Area"
     >
       {/* Main Form Element */}
       <form
         onSubmit={handleSubmit}
-        className="relative flex w-full flex-col"
+        className="relative flex w-full flex-col rounded-3xl overflow-hidden"
         aria-label="Message Input Form"
       >
         {/* Input Container */}
-        <div className="relative w-full rounded-3xl border-2 border-fuchsia-200 bg-stone-100 shadow-lg dark:border-fuchsia-700 dark:bg-gray-800">
+        <div className="relative w-full rounded-3xl overflow-hidden border-2 border-fuchsia-200 bg-stone-100 shadow-lg dark:border-fuchsia-700 dark:bg-gray-800">
           {/* Text Input Area */}
           <PromptArea
             message={message}
